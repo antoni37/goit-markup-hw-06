@@ -764,9 +764,9 @@ padding: 72px 24px 24px 24px;
   color: #4D5AE5 ; ;
 }
 .modal-form-privacy-input:checked + .modal-form-privacy-label span {
-  background-color:  #4D5AE5;  ;
+  background-color: #404bbf; 
   border: none;
-  fill:  #4D5AE5;
+  fill: #F4F4FD; ;
 }
 
 .modal-form-textarea {
