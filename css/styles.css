@@ -854,11 +854,11 @@ padding: 72px 24px 24px 24px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-input:focus {
+.modal-input:focus {
   border-color: #4D5AE5; 
 }
 
-.modal-form-input:focus .modal-form-icon {
+.modal-input:focus .modal-form-icon {
   fill: #4D5AE5;
 }
 
