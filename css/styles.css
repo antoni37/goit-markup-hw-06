@@ -859,7 +859,7 @@ padding: 72px 24px 24px 24px;
   border-color: #4D5AE5; 
 }
 
-.modal-input:focus .modal-form-icon {
+.modal-input:focus  {
   fill: #4D5AE5;
 }
 
