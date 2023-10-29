@@ -663,3 +663,69 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .closed-button-svg{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
+.field-wrapper {
+	display: flex;
+	align-items: center;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+label {
+	display: block;
+	margin-block-end: 30px;
+}
+
+.field-wrapper:focus-within {
+	border-color: green;
+}
+
+.field-wrapper input {
+	border: none;
+	padding: 0.5em;
+	flex-grow: 1;
+  background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.field-wrapper input:focus {
+	outline: none;
+}
+.button-scr{
+  min-width: 165px;
+  height: 40px;
+  color:#4D5AE5 ;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #404bbf ;
+}
+.sub-button{
+  color: #fff;
+}
+form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 4px;
+  font-family: inherit;
+}
