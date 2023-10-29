@@ -824,6 +824,7 @@ padding: 72px 24px 24px 24px;
 
 .modal-first-box {
   margin-bottom: 8px;
+  position: relative; 
 }
 
 .modal-form-label {
