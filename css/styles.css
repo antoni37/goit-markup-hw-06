@@ -674,27 +674,53 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: transparent; 
   font-size: 12px;
   line-height: 1.5;
-  letter-spacing: 0.04em;
   padding-left: 16px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px; 
   color: #ffffff; 
+    gap: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+  }
 
-}
 .button-scr{
   min-width: 165px;
   height: 40px; 
   display: flex; 
   justify-content: center; 
   align-items: center; 
-  font-family: "Roboto", sans-serif ;
   font-size: 16px ;
   font-weight: 500 ;
   line-height: 1.5;
-  letter-spacing: 0.04em;
   color: #ffffff ;
   cursor: pointer;
   background-color: #4D5AE5 ;
   border: none;
   border-radius: 4px; 
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  letter-spacing: 0.64px;
+  gap: 16px;
+}
+.footer-scr{
+  margin-left: 80px;
+ }
+.media-scr{
+  margin-bottom: 16px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.form-scr input[placeholder] {
+  color:#ffffff;
+}
+.svg-foter-button{
+  margin-left: 16px;
+
 }
